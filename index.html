@@ -377,7 +377,7 @@ Certificates & Workshops
 
 <div class="grid">
 
-<div class="card" onclick="openCertificate("nptel.jpg")">
+<div class="card" onclick="openCertificate('nptel.jpg')">
 
 <i class="fas fa-award cert-icon"></i>
 
@@ -391,8 +391,7 @@ Elite Certified with 85% Score
 
 </div>
 
-<div class="card" onclick="openCertificate("softpro.jpg")">
-
+<div class="card" onclick="openCertificate('softpro.jpg')">
 <i class="fas fa-laptop-code cert-icon"></i>
 
 <h3>
@@ -405,7 +404,7 @@ Organized by Softpro India
 
 </div>
 
-<div class="card" onclick="openCertificate("powerbi.jpg")">
+<div class="card" onclick="openCertificate('powerbi.jpg')">
 
 <i class="fas fa-chart-bar cert-icon"></i>
 
@@ -416,13 +415,15 @@ Power BI Certification
 <p>
 Issued by OfficeMaster
 </p>
- <div id="certificateModal" class="modal">
+</div>
+
+</div>
+
+</div>
+<!-- Modal -->
+<div id="certificateModal" class="modal">
     <span class="close" onclick="closeCertificate()">&times;</span>
     <img id="certificateImage">
-</div>
-
-</div>
-
 </div>
 
 </section>
